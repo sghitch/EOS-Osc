@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>b1a3cf2d-8c35-4966-9298-d31ce71e1d7b</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CX">
+      <UniqueIdentifier>{85fab784-ee7e-47d3-99ec-e1eed496afe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sync">
+      <UniqueIdentifier>{2a21a656-037f-472d-a3c3-4fff6104bb4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="CX\EosConsole.cpp">
+      <Filter>CX</Filter>
+    </ClCompile>
+    <ClCompile Include="CX\EosPatch.cpp">
+      <Filter>CX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosLog.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosOsc.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosSyncLib.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosTcp.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosTcp_Win.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosTimer.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosUdp.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\EosUdp_Win.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync\OSCParser.cpp">
+      <Filter>Sync</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="CX\EosConsole.h">
+      <Filter>CX</Filter>
+    </ClInclude>
+    <ClInclude Include="CX\EosPatch.h">
+      <Filter>CX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosLog.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosOsc.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosSyncLib.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosTcp.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosTcp_Win.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosTimer.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosUdp.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\EosUdp_Win.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync\OSCParser.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
